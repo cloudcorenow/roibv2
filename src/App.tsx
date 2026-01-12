@@ -7,7 +7,7 @@ import { useAuth } from './hooks/useAuth';
 import { useNotifications } from './hooks/useNotifications';
 import { generateTaskNotifications, checkOverdueTasks } from './utils/taskNotifications';
 import { 
-  Building, 
+  Building2, 
   Timer, 
   Receipt, 
   FolderOpen, 
