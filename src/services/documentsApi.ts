@@ -1,5 +1,5 @@
 import {
-  Documen,
+  Document,
   DocumentCategory,
   DocumentListResponse,
   DocumentUploadResponse
