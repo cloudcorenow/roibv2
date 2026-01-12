@@ -1,4 +1,4 @@
-import { StateRDCredit } from '../types/assessmen';
+import { StateRDCredit } from '../types/assessment';
 
 export const STATE_RD_CREDITS: Record<string, StateRDCredit & { label: string }> = {
   AL: { label: 'Alabama', rate: 0.05, cap: 50000 },
