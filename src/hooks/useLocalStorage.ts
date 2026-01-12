@@ -1,4 +1,4 @@
-impor { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const STORAGE_VERSION = '1.0.0';
 
