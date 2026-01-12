@@ -3,7 +3,7 @@ import { Play, Pause, Square, Plus, Clock, Timer, Activity, CheckCircle, Zap, Tr
 import { TimeEntry, Project, Employee, Task } from '../types';
 import { formatDuration } from '../utils/formatters';
 
-interface TimeTrackerProp {
+interface TimeTrackerProps {
   timeEntries: TimeEntry[];
   projects: Project[];
   employees: Employee[];
