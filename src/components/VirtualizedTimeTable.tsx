@@ -3,7 +3,7 @@ import { FixedSizeList as List } from 'react-window';
 import { TimeEntry } from '../types/time';
 import { formatDate, formatDuration } from '../utils/formatters';
 
-interface VirtualizedTimeTableProp {
+interface VirtualizedTimeTableProps {
   entries: TimeEntry[];
   height: number;
   onEntryClick?: (entry: TimeEntry) => void;
