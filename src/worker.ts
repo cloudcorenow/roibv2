@@ -17,7 +17,7 @@ import { wrapD1Database } from './lib/secure-database';
 import { createEnvelopeEncryption } from './utils/envelope-encryption';
 import { logSchemaValidation } from './utils/schema-validator';
 
-export interfac Env {
+export interface Env {
   DB: D1Database;
   KV: KVNamespace;
   DOCUMENTS: R2Bucket;
