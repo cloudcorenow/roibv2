@@ -2,7 +2,7 @@ import { Context, Next } from 'hono';
 import { Env } from '../worker';
 import { verifyJWT, JWTPayload } from '../utils/auth';
 
-export interface AuthContex {
+export interface AuthContext {
   user: JWTPayload;
 }
 
