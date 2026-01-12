@@ -8,7 +8,7 @@ export function useTimeEntriesQuery(params: ListTimeEntriesParams = {}) {
     queryKey: ['timeEntries', params],
     queryFn: () => timeEntriesApi.listTimeEntries(params),
     staleTime: 30000, // 30 seconds
-    gcTime: 300000, // 5 minute
+    gcTime: 300000, // 5 minutes
   });
 }
 
