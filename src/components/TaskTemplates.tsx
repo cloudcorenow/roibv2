@@ -4,7 +4,7 @@ import { TaskTemplate } from '../types/tasks';
 import { Project, Employee } from '../types';
 import { formatDuration } from '../utils/formatters';
 
-interface TaskTemplatesProp {
+interface TaskTemplatesProps {
   templates: TaskTemplate[];
   projects: Project[];
   employees: Employee[];
