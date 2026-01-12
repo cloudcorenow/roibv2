@@ -1,7 +1,7 @@
 import React, { Component, ErrorInfo, ReactNode } from 'react';
 import { AlertTriangle, RefreshCw, Home } from 'lucide-react';
 
-interface Prop {
+interface Props {
   children: ReactNode;
   fallback?: (error: Error, errorId: string, retry: () => void) => ReactNode;
   onError?: (error: Error, errorInfo: ErrorInfo, errorId: string) => void;
