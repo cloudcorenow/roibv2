@@ -3,7 +3,7 @@ import { BookOpen, Plus, Search, Tag, User, Clock, Lightbulb, AlertTriangle, Cod
 import { KnowledgeBaseEntry, Project } from '../types';
 import { formatDateTime } from '../utils/formatters';
 
-interface KnowledgeBaseProp {
+interface KnowledgeBaseProps {
   entries: KnowledgeBaseEntry[];
   projects: Project[];
   onAddEntry: (entry: Omit<KnowledgeBaseEntry, 'id' | 'createdAt' | 'updatedAt'>) => void;
