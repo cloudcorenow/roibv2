@@ -1,4 +1,4 @@
-import { Context, Next } from 'hon';
+import { Context, Next } from 'hono';
 import { createSessionManager } from '../utils/session-manager';
 import { createAuditLogger } from '../utils/audit-logger';
 import { createRBACManager } from '../utils/rbac';
