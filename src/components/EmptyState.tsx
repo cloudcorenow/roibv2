@@ -1,7 +1,7 @@
 import React from 'react';
 import { DivideIcon as LucideIcon } from 'lucide-react';
 
-interface EmptyStateProp {
+interface EmptyStateProps {
   icon: LucideIcon;
   title: string;
   description: string;
