@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Calculator, Search, TrendingUp, AlertCircle, CheckCircle, DollarSign, Calendar, FileText, Users, Zap, Brain, Bell, Target, Award, Building, Globe, X } from 'lucide-react';
 import { formatCurrency, formatDate } from '../utils/formatters';
 
-interface TaxCredi {
+interface TaxCredit {
   id: string;
   name: string;
   type: 'federal' | 'state';
