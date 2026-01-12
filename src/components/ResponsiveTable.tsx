@@ -2,7 +2,7 @@ import React from 'react';
 import { TimeEntry } from '../types/time';
 import { formatDate, formatDuration } from '../utils/formatters';
 
-interface ResponsiveTableProp {
+interface ResponsiveTableProps {
   entries: TimeEntry[];
   onEntryClick?: (entry: TimeEntry) => void;
 }
