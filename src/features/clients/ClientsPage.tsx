@@ -5,7 +5,7 @@ import { ClientTable } from './ClientTable';
 import { ClientForm } from './ClientForm';
 import { useClients } from './useClients';
 
-interface ClientsPageProp {
+interface ClientsPageProps {
   selectedClientId: string | null;
   onSelectClient: (clientId: string) => void;
 }
