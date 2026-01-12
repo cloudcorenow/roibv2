@@ -3,7 +3,7 @@ import { Plus, Search, Edit3, Save, X, FileText, Tag, BookOpen, Lightbulb } from
 import { TechnicalNote, Project } from '../types';
 import { formatDateTime } from '../utils/formatters';
 
-interface TechnicalNotesProp {
+interface TechnicalNotesProps {
   notes: TechnicalNote[];
   projects: Project[];
   onAddNote: (note: Omit<TechnicalNote, 'id' | 'createdAt' | 'updatedAt'>) => void;
