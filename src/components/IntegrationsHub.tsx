@@ -3,7 +3,7 @@ import { Plug, Workflow, Building, CreditCard, CheckCircle, AlertCircle, Setting
 import { QuickBooksIntegration } from './QuickBooksIntegration';
 import { CentralReachIntegration } from './CentralReachIntegration';
 
-interface IntegrationsHubProp {
+interface IntegrationsHubProps {
   onSyncComplete?: (result: any) => void;
 }
 
