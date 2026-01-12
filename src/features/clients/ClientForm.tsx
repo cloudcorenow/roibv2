@@ -3,7 +3,7 @@ import { Building2 } from 'lucide-react';
 import { Client } from '../../types';
 import { useFormValidation } from '../../hooks/useFormValidation';
 
-interface ClientFormProp {
+interface ClientFormProps {
   onSubmit: (client: Omit<Client, 'id'>) => void;
   onCancel: () => void;
   initialData?: Partial<Client>;
