@@ -3,7 +3,7 @@ import { Plus, Search, FlaskRound as Flask, CheckCircle, XCircle, Clock, AlertTr
 import { Experiment, Project } from '../types';
 import { formatDate } from '../utils/formatters';
 
-interface ExperimentTrackerProp {
+interface ExperimentTrackerProps {
   experiments: Experiment[];
   projects: Project[];
   onAddExperiment: (experiment: Omit<Experiment, 'id' | 'createdAt' | 'updatedAt'>) => void;
