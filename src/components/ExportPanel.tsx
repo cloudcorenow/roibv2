@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Download, FileText, Table, Database } from 'lucide-react';
 import { LoadingSpinner } from './LoadingSpinner';
 import { 
-  exportTimeEntriesToCV, 
+  exportTimeEntriesToCSV, 
   exportProjectsToCSV, 
   exportExpensesToCSV,
   exportTechnicalNotesToCSV,
