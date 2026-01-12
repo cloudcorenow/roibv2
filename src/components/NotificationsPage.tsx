@@ -3,7 +3,7 @@ import { Bell, X, Check, CheckCheck, Trash2, Filter, Search, Clock, User, Target
 import { Notification } from '../hooks/useNotifications';
 import { formatDateTime } from '../utils/formatters';
 
-interface NotificationsPageProp {
+interface NotificationsPageProps {
   notifications: Notification[];
   unreadCount: number;
   onMarkAsRead: (id: string) => void;
