@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AlertTriangle, Building2, Eye, RefreshCw, X } from 'lucide-react';
 
-interface PlatformAdminBannerProp {
+interface PlatformAdminBannerProps {
   tenantName: string;
   readOnly: boolean;
   onSwitchTenant: () => void;
