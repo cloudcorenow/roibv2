@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Mail, Lock, Eye, EyeOff, Shield, Zap, CheckCircle, User } from 'lucide-react';
 import { LoadingSpinner } from './LoadingSpinner';
 
-interface LoginPageProp {
+interface LoginPageProps {
   onLogin: (credentials: { email: string; password: string }) => Promise<void>;
   onRegister?: (data: { email: string; password: string; name?: string }) => Promise<void>;
   isLoading?: boolean;
