@@ -4,7 +4,7 @@ import { User as UserType } from '../types/users';
 import { formatDate, formatDateTime } from '../utils/formatters';
 import { useFormValidation } from '../hooks/useFormValidation';
 
-interface ProfileSettingsProp {
+interface ProfileSettingsProps {
   user: UserType;
   onUpdateProfile: (updates: Partial<UserType>) => void;
   onClose: () => void;
