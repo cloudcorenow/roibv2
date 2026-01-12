@@ -1,4 +1,4 @@
-impor { D1Database, D1PreparedStatement } from '@cloudflare/workers-types';
+import { D1Database, D1PreparedStatement } from '@cloudflare/workers-types';
 import { isPHIField, type PHIField } from '../utils/phi-encryption';
 import { PHI_BEARING_TABLES, isPHITable, type PHITable, PHI_FIELDS, getTablePHIFields } from '../types/phi-registry';
 
