@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 
-export interface SearchFilter {
+export interface SearchFilters {
   query: string;
   dateRange?: {
     start: string;
