@@ -3,7 +3,7 @@ import { Plus, Search, DollarSign, Calendar, Tag, FileText, Receipt, Building, C
 import { Expense, Project } from '../types';
 import { formatCurrency, formatDate } from '../utils/formatters';
 
-interface ExpenseTrackerProp {
+interface ExpenseTrackerProps {
   expenses: Expense[];
   projects: Project[];
   onAddExpense: (expense: Omit<Expense, 'id'>) => void;
