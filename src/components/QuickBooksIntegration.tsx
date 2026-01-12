@@ -4,7 +4,7 @@ import QuickBooksAPI from '../services/quickbooksApi';
 import { QuickBooksConfig, QuickBooksSyncResult } from '../types/quickbooks';
 import { LoadingSpinner } from './LoadingSpinner';
 
-interface QuickBooksIntegrationProp {
+interface QuickBooksIntegrationProps {
   onSyncComplete?: (result: QuickBooksSyncResult) => void;
 }
 
