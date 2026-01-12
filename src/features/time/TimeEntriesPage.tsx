@@ -4,7 +4,7 @@ import { TimeEntryTable } from './TimeEntryTable';
 import { downloadCsv, toCsv } from '../../utils/exportCsv';
 import { useTimeEntries } from './useTimeEntries';
 
-interface TimeEntriesPageProp {
+interface TimeEntriesPageProps {
   selectedClientId?: string | null;
   projects?: any[];
 }
