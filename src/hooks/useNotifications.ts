@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 
-export interface Notificatio {
+export interface Notification {
   id: string;
   type: 'task_assigned' | 'task_updated' | 'task_completed' | 'task_overdue' | 'comment_added' | 'milestone_due';
   title: string;
