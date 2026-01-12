@@ -4,7 +4,7 @@ import { Task } from '../types/tasks';
 import { Project, Employee } from '../types';
 import { generateId } from '../utils/formatters';
 
-interface TaskFormProp {
+interface TaskFormProps {
   projects: Project[];
   employees: Employee[];
   onSubmit: (task: Omit<Task, 'id' | 'createdAt' | 'updatedAt'>) => void;
