@@ -6,7 +6,7 @@ import { listTimeEntries, createTimeEntry, deleteTimeEntry } from '../../service
 export type SortKey = keyof Pick<TimeEntry, 'date' | 'client' | 'project' | 'service' | 'durationMin'>;
 export type SortDir = 'asc' | 'desc';
 
-export function useTimeEntrie() {
+export function useTimeEntries() {
   const queryClient = useQueryClient();
   const [query, setQuery] = useState('');
   const [from, setFrom] = useState<string | undefined>();
