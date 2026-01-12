@@ -1,5 +1,5 @@
 // Secure API wrapper for server-side integrations
-// This prevents exposing API keys in the clien
+// This prevents exposing API keys in the client
 
 export interface ApiResponse<T> {
   success: boolean;
