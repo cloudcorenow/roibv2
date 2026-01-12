@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Clock } from 'lucide-react';
 import { TimeEntry, Project } from '../../types';
 
-interface TimeEntryFormProp {
+interface TimeEntryFormProps {
   projects: Project[];
   onSubmit: (entry: Omit<TimeEntry, 'id'>) => void;
   onCancel: () => void;
