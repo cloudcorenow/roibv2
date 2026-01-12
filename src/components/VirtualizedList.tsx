@@ -5,7 +5,7 @@ interface VirtualizedListProps<T> {
   itemHeight: number;
   containerHeight: number;
   renderItem: (item: T, index: number) => React.ReactNode;
-  className?: strin;
+  className?: string;
 }
 
 export function VirtualizedList<T>({
