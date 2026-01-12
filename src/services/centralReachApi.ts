@@ -27,7 +27,7 @@ class CentralReachAPI {
     return response.json();
   }
 
-  // Client Management
+  // Client Managemen
   async getClients(): Promise<CentralReachClient[]> {
     return this.makeRequest<CentralReachClient[]>('/clients');
   }
