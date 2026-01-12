@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Building2, Eye, EyeOff, Search, AlertCircle } from 'lucide-react';
 import { LoadingSpinner } from './LoadingSpinner';
 
-interface Tenan {
+interface Tenant {
   id: string;
   name: string;
   domain: string | null;
