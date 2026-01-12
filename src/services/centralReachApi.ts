@@ -1,6 +1,6 @@
 import { CentralReachConfig, CentralReachClient, CentralReachStaff, CentralReachService, CentralReachTimeEntry, CentralReachSyncResult } from '../types/centralreach';
 
-class CentralReachAP {
+class CentralReachAPI {
   private config: CentralReachConfig;
 
   constructor(config: CentralReachConfig) {
