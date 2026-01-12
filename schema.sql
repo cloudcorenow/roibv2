@@ -1,5 +1,5 @@
 -- =====================================================
--- ROIBLUEPRINT COMPLETE DATABASE SCHEM
+-- ROIBLUEPRINT COMPLETE DATABASE SCHEMA
 -- HIPAA-Compliant Multi-Tenant Platform
 -- =====================================================
 
