@@ -3,7 +3,7 @@ import { Clock, Users, Calendar, AlertTriangle, CheckCircle, Play, Pause } from 
 import { Task } from '../types/tasks';
 import { formatDate, formatDuration } from '../utils/formatters';
 
-interface TaskBoardProp {
+interface TaskBoardProps {
   tasks: Task[];
   onTaskClick: (task: Task) => void;
   onUpdateTask: (id: string, updates: Partial<Task>) => void;
