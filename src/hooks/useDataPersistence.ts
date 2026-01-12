@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export function useDataPersistenc<T>(key: string, initialData: T) {
+export function useDataPersistence<T>(key: string, initialData: T) {
   const [data, setData] = useState<T>(() => {
     try {
       const saved = localStorage.getItem(key);
