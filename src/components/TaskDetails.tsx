@@ -4,7 +4,7 @@ import { Task, TaskComment } from '../types/tasks';
 import { Project, Employee } from '../types';
 import { formatDate, formatDuration, formatDateTime } from '../utils/formatters';
 
-interface TaskDetailsProp {
+interface TaskDetailsProps {
   task: Task;
   projects: Project[];
   employees: Employee[];
