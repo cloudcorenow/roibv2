@@ -1,4 +1,4 @@
-import { Hono } from 'hon';
+import { Hono } from 'hono';
 import { Env } from '../worker';
 import { TimeEntriesQueries } from '../utils/d1-queries';
 import { getCachedOrCompute, buildCacheKey, invalidateCache } from '../utils/d1-helpers';
