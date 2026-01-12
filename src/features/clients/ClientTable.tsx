@@ -4,7 +4,7 @@ import { Client } from '../../types';
 import { formatCurrency, formatDate } from '../../utils/formatters';
 import { useAdvancedSearch } from '../../hooks/useAdvancedSearch';
 
-interface ClientTableProp {
+interface ClientTableProps {
   clients: Client[];
   onSelectClient: (clientId: string) => void;
   onUpdateClient: (id: string, updates: Partial<Client>) => void;
