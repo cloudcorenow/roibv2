@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, X } from 'lucide-react';
 
-interface SearchBarProp {
+interface SearchBarProps {
   placeholder?: string;
   onSearch: (query: string) => void;
   className?: string;
