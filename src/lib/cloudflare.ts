@@ -1,4 +1,4 @@
-// Cloudflare Workers API clien
+// Cloudflare Workers API client
 export interface CloudflareConfig {
   apiUrl: string;
   tenantId: string;
