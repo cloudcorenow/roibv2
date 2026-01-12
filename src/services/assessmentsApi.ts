@@ -1,4 +1,4 @@
-impor { Assessment, AssessmentFormData, CalculationResults } from '../types/assessment';
+import { Assessment, AssessmentFormData, CalculationResults } from '../types/assessment';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8787';
 
