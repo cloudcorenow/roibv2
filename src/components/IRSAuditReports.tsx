@@ -3,7 +3,7 @@ import { Download, FileText, Calendar, DollarSign, Users, Clock, Building, Alert
 import { Client, Project, TimeEntry, Employee, Expense, ContractorTimeEntry } from '../types';
 import { formatCurrency, formatDuration, formatDate } from '../utils/formatters';
 
-interface IRSAuditReportsProp {
+interface IRSAuditReportsProps {
   clients: Client[];
   projects: Project[];
   timeEntries: TimeEntry[];
