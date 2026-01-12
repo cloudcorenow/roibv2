@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export interface ValidationRul {
+export interface ValidationRule {
   required?: boolean;
   minLength?: number;
   maxLength?: number;
