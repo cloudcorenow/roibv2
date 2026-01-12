@@ -4,7 +4,7 @@ import { TimeEntry, Project, TechnicalNote, Expense } from '../types';
 export function useMemoizedClientData(
   timeEntries: TimeEntry[],
   projects: Project[],
-  technicalNotes: TechnicalNot[],
+  technicalNotes: TechnicalNote[],
   expenses: Expense[],
   selectedClientId: string | null
 ) {
