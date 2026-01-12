@@ -4,7 +4,7 @@ import CentralReachAPI from '../services/centralReachApi';
 import { CentralReachConfig, CentralReachSyncResult } from '../types/centralreach';
 import { LoadingSpinner } from './LoadingSpinner';
 
-interface CentralReachIntegrationProp {
+interface CentralReachIntegrationProps {
   onSyncComplete?: (result: CentralReachSyncResult) => void;
 }
 

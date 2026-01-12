@@ -2,7 +2,7 @@ import React from 'react';
 import { Search, Filter, X, Calendar, Tag } from 'lucide-react';
 import { SearchFilters } from '../hooks/useAdvancedSearch';
 
-interface AdvancedSearchPanelProp {
+interface AdvancedSearchPanelProps {
   filters: SearchFilters;
   onUpdateFilter: (key: keyof SearchFilters, value: any) => void;
   onClearFilters: () => void;

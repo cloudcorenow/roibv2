@@ -3,7 +3,7 @@ import { Users, Plus, Search, Clock, DollarSign, CheckCircle, XCircle, Building,
 import { Contractor, ContractorTimeEntry, Project } from '../types';
 import { formatCurrency, formatDuration, formatDate } from '../utils/formatters';
 
-interface ContractorManagementProp {
+interface ContractorManagementProps {
   contractors: Contractor[];
   contractorTimeEntries: ContractorTimeEntry[];
   projects: Project[];

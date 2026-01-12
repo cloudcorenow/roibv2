@@ -3,7 +3,7 @@ import { GitBranch, Clock, Code, Zap, Settings, CheckCircle, AlertCircle, Activi
 import { AutoTimeEntry, Project } from '../types';
 import { formatDuration, formatDateTime } from '../utils/formatters';
 
-interface AutoTimeIntegrationProp {
+interface AutoTimeIntegrationProps {
   autoTimeEntries: AutoTimeEntry[];
   projects: Project[];
   onApproveEntry: (entryId: string) => void;
