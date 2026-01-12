@@ -3,7 +3,7 @@ import { Bell, X, Check, CheckCheck, Trash2, Clock, User, Target, MessageSquare,
 import { Notification } from '../hooks/useNotifications';
 import { formatDateTime } from '../utils/formatters';
 
-interface NotificationCenterProp {
+interface NotificationCenterProps {
   notifications: Notification[];
   unreadCount: number;
   onMarkAsRead: (id: string) => void;
