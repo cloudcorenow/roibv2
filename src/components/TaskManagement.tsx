@@ -8,7 +8,7 @@ import { TaskForm } from './TaskForm';
 import { TaskDetails } from './TaskDetails';
 import { TaskTemplates } from './TaskTemplates';
 
-interface TaskManagementProp {
+interface TaskManagementProps {
   tasks: Task[];
   projects: Project[];
   employees: Employee[];
