@@ -1,7 +1,7 @@
 import { Context, Next } from 'hono';
 import { getTablePHIFields } from '../types/phi-registry';
 
-export const PHI_BEARING_ROUTE = {
+export const PHI_BEARING_ROUTES = {
   assessments: {
     basePath: '/api/assessments',
     operations: ['read', 'create', 'update', 'delete', 'export'],
