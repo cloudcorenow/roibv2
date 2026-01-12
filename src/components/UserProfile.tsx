@@ -5,7 +5,7 @@ import { Notification } from '../hooks/useNotifications';
 import { NotificationCenter } from './NotificationCenter';
 import { formatDateTime } from '../utils/formatters';
 
-interface UserProfileProp {
+interface UserProfileProps {
   onShowProfileSettings: () => void;
   onShowNotifications: () => void;
   onShowAccountSettings: () => void;
