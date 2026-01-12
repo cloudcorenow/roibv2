@@ -15,7 +15,7 @@ const configSchema = z.object({
   sandbox: z.boolean().default(true)
 });
 
-interface QuickBooksRequestOption {
+interface QuickBooksRequestOptions {
   method?: string;
   body?: string;
 }
