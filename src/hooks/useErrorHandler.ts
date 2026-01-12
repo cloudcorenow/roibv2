@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react';
 import { useToast } from '../components/Toast';
 
-export interface ErrorInf {
+export interface ErrorInfo {
   message: string;
   code?: string;
   details?: string;
