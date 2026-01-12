@@ -1,4 +1,4 @@
-import { Hono } from 'hon';
+import { Hono } from 'hono';
 import { z } from 'zod';
 import { Env } from '../worker';
 import {
