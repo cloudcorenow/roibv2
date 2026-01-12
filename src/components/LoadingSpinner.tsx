@@ -1,7 +1,7 @@
 import React from 'react';
 import { Loader2 } from 'lucide-react';
 
-interface LoadingSpinnerProp {
+interface LoadingSpinnerProps {
   size?: 'sm' | 'md' | 'lg';
   text?: string;
   className?: string;
