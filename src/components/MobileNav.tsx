@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, Building2 } from 'lucide-react';
 
-interface MobileNavProp {
+interface MobileNavProps {
   navigationItems: Array<{
     id: string;
     label: string;
