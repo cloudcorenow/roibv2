@@ -4,7 +4,7 @@ import { useDataPersistence } from '../../hooks/useDataPersistence';
 import { generateId } from '../../utils/formatters';
 import { mockClients } from '../../data/mockData';
 
-export function useClient() {
+export function useClients() {
   const [clients, setClients] = useDataPersistence('firmflowz-clients', mockClients);
   const [showNewClientForm, setShowNewClientForm] = useState(false);
 
