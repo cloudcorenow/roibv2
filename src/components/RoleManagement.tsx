@@ -3,7 +3,7 @@ import { Shield, Plus, Search, Crown, Users, Settings, Edit3, Trash2, CheckCircl
 import { Role, Permission, User } from '../types/users';
 import { formatDateTime, getStatusColor } from '../utils/formatters';
 
-interface RoleManagementProp {
+interface RoleManagementProps {
   roles: Role[];
   permissions: Permission[];
   users: User[];
