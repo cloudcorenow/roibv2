@@ -3,7 +3,7 @@ import { Users, Plus, Search, Shield, Mail, Calendar, Activity, Settings, Eye, E
 import { User, Role, UserInvitation } from '../types/users';
 import { formatDateTime, formatDate, getStatusColor } from '../utils/formatters';
 
-interface UserManagementProp {
+interface UserManagementProps {
   users: User[];
   roles: Role[];
   invitations: UserInvitation[];
